@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #FFF;
+    box-shadow: 0px 1px 1px 1px #616161;
+
+}
+.hov-gray :hover{
+    background-color: #616161;
+    color: white
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+  
+}
+nav ul li{
+    list-style: none;
+    height: 100px;
+    width: 130px;
+    text-align: center;
+}
+.nav_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #e8e8e8;
+    box-shadow: 0px 1px 1px 1px #616161;
+}
+.headerlogo{
+    width: 300px;
+    height: 70px;
+    background-color: #e8e8e8;
+    display: flex;
+}
+.logo{
+    flex: 1;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+.logo1{
+    box-shadow: 1px 1px 1px 1px #616161;
+
+}
+.logo2{
+    box-shadow: 0px 0px 1px 3px #747171;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.headerimg{
+    width: 560px;
+    height: 70px;
+    background-color: #e8e8e8;
+    display: flex;
+}
+.img1{
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+    box-shadow: -1px -1px 1px 1px #616161;
+    opacity: 0.4;
+}
+.hover1 :hover{
+    opacity: 1;
+}
+.hover2 :hover{
+    opacity: 1;
+}
+.hover3 :hover{
+    opacity: 1;
+}
+/* footer */
+footer {
+    display: flex;
+    height: 250px;
+    background-color: #1f1f1f;
+    color: #616161;
+}
+.footer.footer2 {
+    margin-right: 15px;
+}
+.footer {
+    flex: 3;
+
+}
+
+.footer1 {
+    padding: 20px 40px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.footer1 ul {
+    width: 270px;
+    line-height: 25px;
+    list-style-image: url('./images/Free\ right\ arrow\ icon\ png\ vector.png');
+}
+
+.footer1 h1 {
+    text-align: center;
+}
+
+.footer2 {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerimg {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer3img {
+    
+    flex: 2;
+    display: flex;
+}
+
+.footer3img1 {
+    
+    width: 30%;
+}
+.footer3img1 ul{
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 40px;
+    line-height: 20px;
+}
+.footer3text {
+    
+    flex: 1;
+    width: 70%;
+}
+.active-gray{
+    background-color: #616161;
+    color: white
+}
+.active-red{
+    background-color: red;
+    color: white
+}
+.active-yellow{
+    background-color: yellow;
+    color: black
+}
+.active-green{
+    background-color: greenyellow;
+    color: white
+}
+.active-skyblue{
+    background-color: skyblue;
+    color: white
+}
+.active-orange{
+    background-color: orange;
+    color: white
+}
+.active-royalblue{
+    background-color: royalblue;
+    color: white
+}
+.hov-red :hover{  
+    background-color: red;
+    color: white
+}
+.hov-orange :hover{  
+    background-color: orange;
+    color: white
+}
+.hov-yellow :hover{  
+    background-color: yellow;
+    color: black
+}
+.hov-skyblue :hover{  
+    background-color: skyblue;
+    color: white
+}
+.hov-green :hover{  
+    background-color: yellowgreen;
+    color: white
+}
+.hov-royalblue :hover{  
+    background-color: royalblue;
+    color: white
+}
+ul a{
+    color: black;
+    text-decoration: none;
+}

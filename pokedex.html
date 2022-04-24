@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body style="overflow-x: hidden;">
+    <div
+
+    style="clip-path: polygon(0 0, 79% 0, 100% 13%, 100% 93%, 58% 93%, 50% 100%, 0 100%, 0% 20%); height: 160px; width: 80px; display: flex; flex-direction: column; justify-content: center; align-items: center; position: fixed; top: 30%; left: 0;"
+    >
+        <div style="background-color: yellowgreen; height: 80px; width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;  ">
+            <img src="./images/icons/user.png" alt="" style="margin-top: 15px;">
+            <p style="color: white; margin-top: 3px; font-size: 11px;">Login</p>
+        </div>
+        <div style="background-color: gray;  height: 80px; width: 100%;">
+            <img src="./images/icons/loupe1.png" alt="" style="margin-top: 20px; margin-left: 25px;" class="loupe1">
+        </div>
+    </div>
+    <header>
+        <div class="headerlogo">
+            <div class="logo logo2"><img src="./images/headerimg/logo-pokemon-79x45.png" alt=""></div>
+            <div class="logo logo1"><img src="./images/headerimg/logo-pokemoncenter-79x45.png" alt=""></div>
+            <div class="logo logo1"><img src="./images/headerimg/logo-tcgo-79x45.png" alt=""></div>
+        </div>
+        <div class="headerimg">
+            <div class="img1 hover1"><img src="./images/headerimg/legends-arceus-176x50-us.jpg" alt=""></div>
+            <div class="img1 hover2"><img src="./images/headerimg/swsh09-gus-175-en.jpg" alt=""></div>
+            <div class="img1 hover3"><img src="./images/headerimg/unite-176x50.jpg" alt=""></div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <a href="./index.html">
+                <div class="hov-gray ">
+                    <li class="nav_list" style="border-bottom: 10px solid #616161  ;"> <img
+                            src="./images/icons/bunny.png" alt="" style="height: 24px;" width="24px">
+                        Home
+                    </li>
+                </div>
+            </a>
+            <a href="./pokedex.html">
+                <div class="hov-red active-red ">
+                    <li class="nav_list" style="border-bottom: 10px solid red  ;"> <img
+                            src="./images/icons/pokeball.png" alt="" style="height: 24px;" width="24px"> Pokedex</li>
+                </div>
+            </a>
+            <a href="./video.html">
+                <div class="hov-orange ">
+                    <li class="nav_list" style="border-bottom: 10px solid orange  ;"><img src="./images/icons/plus.svg"
+                            alt="" style="height: 24px;" width="24px"> Video Game & Apps</li>
+                </div>
+            </a>
+            <a href="./card.html">
+                <div class="hov-yellow ">
+                    <li class="nav_list" style="border-bottom: 10px solid yellow  ;"><img
+                            src="./images/icons/playing-cards.png" alt="" style="height: 24px; " width="24px"> Trading
+                        Card Game</li>
+                </div>
+            </a>
+            <a href="./pokemon.html">
+                <div class="hov-green ">
+                    <li class="nav_list" style="border-bottom: 10px solid yellowgreen  ;"> <img
+                            src="./images/icons/tv.png" alt="" style="height: 24px;" width="24px"> Pokemon TV</li>
+                </div>
+            </a>
+            <a href="#">
+                <div class="hov-skyblue ">
+                    <li class="nav_list" style="border-bottom: 10px solid skyblue  ;"><img
+                            src="./images/icons/trophy.png" alt="" style="height: 24px;" width="24px"> Play! Pokemon
+                        Event</li>
+                </div>
+                <a href="#">
+                    <div class="hov-royalblue">
+                        <li class="nav_list" style="border-bottom: 10px solid royalblue  ;"><img
+                                src="./images/icons/newspaper.png" alt="" style="height: 24px;" width="24px"> News</li>
+                    </div>
+                </a>
+
+
+
+
+
+
+        </ul>
+    </nav>
+
+    <h1 style="color: gray; font-size: 42px; font-weight: 400; margin-left: 220px; margin-top: 30px;">Pokédex</h1>
+
+    <div class="main1" style="margin-top: 30px;">
+        <div class="card2">
+            <!-- <div class="itemmain"> -->
+            <div class="carditem">
+                <h1 style="color: white;">NAME OR NUMBER</h1>
+            </div>
+            <div class="carditem">
+                <input type="text" style="height: 45px; width: 320px; font-size: 24px;">
+                <button style="height: 45px; width: 50px; margin-left: 22px; background-color: rgb(228, 61, 32);"><img
+                        src="./images/icons/loupe.png" alt=""></button>
+            </div>
+            <div class="carditem">
+                <p style="color: white;">
+                    Use the Advanced Search to explore Pokémon by type, weakness, Ability, and more!
+                </p>
+            </div>
+
+        </div>
+        <div class="card2">
+            <h2 style="width: 400px; align-self: flex-start; margin-left: 40px; background-color: rgb(42, 163, 42); border-radius: 4px; font-size: 24px;
+            padding: 10px; text-align: justify; line-height: 25px; font-family: saira; color: white;">Search for a
+                Pokémon by name or using its National Pokédex number.</h2>
+        </div>
+    </div>
+    <!-- card section -->
+    <div class="grid" style="margin-top: 100px;">
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/001.png" alt=""></div>
+            <p style="margin-left: 5px;">#001</p>
+            <p style="margin-left: 5px;">Bulbasaur</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+                <button
+                    style="background-color: yellowgreen; border: none;height: 20px; width: 40px; border-radius: 5px; color: white;">Grass</button>
+                <button
+                    style="background-color: purple; border: none;height: 20px; width: 50px; border-radius: 5px; color: white;">Poison</button>
+            </div>
+        </div>
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/002.png" alt=""></div>
+            <p style="margin-left: 5px;">#002</p>
+            <p style="margin-left: 5px;">Ivysaur</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+                <button
+                    style="background-color: yellowgreen; border: none;height: 20px; width: 40px; border-radius: 5px; color: white;">Grass</button>
+                <button
+                    style="background-color: purple; border: none;height: 20px; width: 50px; border-radius: 5px; color: white;">Poison</button>
+            </div>
+        </div>
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/003.png" alt=""></div>
+            <p style="margin-left: 5px;">#003</p>
+            <p style="margin-left: 5px;">venasaur</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+                <button
+                    style="background-color: yellowgreen; border: none;height: 20px; width: 40px; border-radius: 5px; color: white;">Grass</button>
+                <button
+                    style="background-color: purple ; border: none;height: 20px; width: 50px; border-radius: 5px; color: white;">Poison</button>
+            </div>
+        </div>
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/004.png" alt=""></div>
+            <p style="margin-left: 5px;">#004</p>
+            <p style="margin-left: 5px;">Charizard</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+                <button
+                    style="background-color: orangered; border: none;height: 20px; width: 40px; border-radius: 5px; color: white;">Fire</button>
+                    </div>
+        </div>
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/005.png" alt=""></div>
+            <p style="margin-left: 5px;">#005</p>
+            <p style="margin-left: 5px;">charmillion</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+                <button
+                    style="background-color: orangered; border: none;height: 20px; width: 40px; border-radius: 5px; color: white;">Fire</button>
+                 </div>
+        </div>
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/006.png" alt=""></div>
+            <p style="margin-left: 5px;">#006</p>
+            <p style="margin-left: 5px;">chaizard</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+                <button
+                    style="background-color: orangered; border: none;height: 20px; width: 40px; border-radius: 5px; color: white;">Fire</button>
+                <button
+                    style="background-color: skyblue; border: none;height: 20px; width: 50px; border-radius: 5px;">flying</button>
+            </div>
+        </div>
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/007.png" alt=""></div>
+            <p style="margin-left: 5px;">#007</p>
+            <p style="margin-left: 5px;">Squirel</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+                <button
+                    style="background-color: blue; color: white; border: none;height: 20px; width: 50px; border-radius: 5px;">Water</button>
+            </div>
+        </div>
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/008.png" alt=""></div>
+            <p style="margin-left: 5px;">#008</p>
+            <p style="margin-left: 5px;">wartortile</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+     
+                <button
+                    style="background-color: blue; color: white; border: none;height: 20px; width: 50px; border-radius: 5px;">Water</button>
+            </div>
+        </div>
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/009.png" alt=""></div>
+            <p style="margin-left: 5px;">#009</p>
+            <p style="margin-left: 5px;">Blastoise</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+                <button
+                    style="background-color: blue; color: white; border: none;height: 20px; width: 50px; border-radius: 5px;">Water</button>
+            </div>
+        </div>
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/010.png" alt=""></div>
+            <p style="margin-left: 5px;">#010</p>
+            <p style="margin-left: 5px;">caterpie</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+                <button
+                    style="background-color: green; color: white; border: none;height: 20px; width: 40px; border-radius: 5px;">Bug</button>
+                   </div>
+        </div>
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/011.png" alt=""></div>
+            <p style="margin-left: 5px;">#011</p>
+            <p style="margin-left: 5px;">Metapod</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+                <button
+                    style="background-color: green; border: none;height: 20px; width: 40px; border-radius: 5px; color: white;">bug</button>
+            </div>
+        </div>
+        <div class="griditem" style="display: flex; flex-direction: column;">
+            <div class="gririmg" style="background-color: #cfcece; border-radius: 5px;"><img
+                    src="./images/gridimg/012.png" alt=""></div>
+            <p style="margin-left: 5px;">#012</p>
+            <p style="margin-left: 5px;">Butterfree</p>
+            <div style="display: flex; gap: 8px; margin-left: 5px;">
+                <button
+                    style="background-color: green; border: none;height: 20px; width: 40px; border-radius: 5px; color: white;">bug</button>
+                <button
+                    style="background-color: skyblue; border: none;height: 20px; width: 50px; border-radius: 5px;">flying</button>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="grid1" style="margin: 100px;">
+    <div class="grid1item" style="background-color: royalblue;">
+        <div class="grid1itemflex"><img src="./images/thumbnails/pokemon-legends-arceus-169-en (1).gif" style="width: 100%; height: 100%;" alt=""></div>
+        <div class="grid1itemflex1" style="padding: 20px;"> <h3 style="color: white; font-weight: 300 ; font-size: x-large;">Top Tips to Help Complete Your Hisui Region Pokédex</h3>
+            <p style="color: skyblue; margin-top: 5px; font-size: large;">If your <em>Pokémon Legends: Arceus</em> Pokédex is missing some entries, this guide will help you find those elusive Pokémon.</p>
+        </div>
+    </div>
+    <div class="grid1item" style="background-color: #ff90c4;">
+        <div class="grid1itemflex"><img src="./images/thumbnails/villains-169.jpg" style="width: 100%; height: 100%;" alt=""></div>
+        <div class="grid1itemflex1" style="padding: 20px;"> <h3 style="color: white; font-weight: 300 ; font-size: x-large;">Prepare for Trouble with This Villainous Quiz</h3>
+            <p style="color: #c3005b; margin-top: 5px; font-size: large;">Test your knowledge and see how well you know the many teams of villains that seek to cause mayhem in the world of Pokémon.</p></div>
+    </div>
+    <div class="grid1item" style="background-color: #E3350D;">
+        <div class="grid1itemflex"><img src="./images/thumbnails/top-deck-academy-169.jpg" style="width: 100%; height: 100%;" alt=""></div>
+        <div class="grid1itemflex1" style="padding: 20px;"> <h3 style="color: white; font-weight: 300 ; font-size: x-large;">Work Out Weakness in Your Pokémon TCG Decks</h3>
+            <p style="color: #ccc; margin-top: 5px; font-size: large;">Episode 6 of Top Deck Academy shows how to transform your vulnerabilities into a powerful offensive.</p> </div>
+    </div>
+    
+   
+    
+</div>
+    <!-- footer -->
+    <footer style="margin-top: -380px;">
+        <div class="footer footer1">
+            <h1>The Pokémon Company</h1>
+            <ul>
+
+                <li>What's New</li>
+                <li>
+                    Pokémon Parents Guide
+                </li>
+                <li>
+                    Customer Service
+                </li>
+                <li>
+                    About Our Company
+                </li>
+                <li>
+                    Pokémon Careers
+                </li>
+                <li>
+                    Pokémon Press Site
+                </li>
+                <li>
+                    Select a Country/Region
+                </li>
+            </ul>
+        </div>
+        <div class="footer footer2">
+            <div class="footerimg"><img src="./images/footerimg/facebook.png" alt="" style="height: 100%; width: 100%;">
+            </div>
+            <div class="footerimg"><img src="./images/footerimg/instagram.png" alt=""
+                    style="height: 100%; width: 100%;"></div>
+            <div class="footerimg"><img src="./images/footerimg/pinterest.png" alt=""
+                    style="height: 100%; width: 100%;"></div>
+            <div class="footerimg"><img src="./images/footerimg/twitter.png" alt="" style="height: 100%; width: 100%;">
+            </div>
+            <div class="footerimg"><img src="./images/footerimg/youtube.png" alt="" style="height: 100%; width: 100%;">
+            </div>
+        </div>
+        <div class="footer footer3">
+            <div class="footer3img">
+                <div class="footer3img1"><img
+                        src="./images/footerimg/thepokemoncompanyinternational-seal-1596150491.png" alt=""
+                        style="margin-top: 40px;"></div>
+                <div class="footer3img1">
+                    <ul style="font-size: 11px;">
+                        <li>Terms of Use</li>
+                        <li>Privacy Notice</li>
+                        <li>Cookie Page</li>
+                        <li>Legal Info</li>
+                        <li>Security</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer3text">
+                <p style="margin-top: 15px; margin-left: 10px; font-size: 11px;">©2022 Pokémon. ©1995 - 2022
+                    Nintendo/Creatures Inc./GAME FREAK inc. TM, ®Nintendo.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
